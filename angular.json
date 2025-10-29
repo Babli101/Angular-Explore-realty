@@ -18,6 +18,7 @@
           "builder": "@angular/build:application",
           "options": {
             "outputPath": "dist/ExploreRealty/browser",
+            "baseHref": "/",
             "polyfills": [
               "zone.js"
             ],
