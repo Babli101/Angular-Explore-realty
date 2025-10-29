@@ -5,6 +5,6 @@
   "outputDirectory": "dist/ExploreRealty/browser",
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/index.html" }
+    { "src": "/.*", "dest": "browser/index.html" }
   ]
 }
