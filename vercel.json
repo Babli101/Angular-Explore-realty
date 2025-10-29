@@ -2,9 +2,9 @@
   "version": 2,
   "framework": "angular",
   "buildCommand": "ng build --configuration production",
-  "outputDirectory": "dist/ExploreRealty/browser",
+  "outputDirectory": "dist/browser",
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/.*", "dest": "browser/index.html" }
+    { "src": "/.*", "dest": "/index.html" }
   ]
 }
