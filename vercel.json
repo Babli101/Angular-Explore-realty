@@ -4,6 +4,6 @@
   "buildCommand": "ng build --configuration production",
   "outputDirectory": "dist/ExploreRealty/browser",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/browser/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
